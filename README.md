@@ -12,3 +12,6 @@ Components in this Repository:
 Circuitbreaker.
 Hystrix Dashboard:
 ![image](https://user-images.githubusercontent.com/72595852/119661661-24428d80-be4e-11eb-9ef6-105daa58dbbc.png)
+
+Get request for user microservice.
+![image](https://user-images.githubusercontent.com/72595852/119668406-c9f8fb00-be54-11eb-8aa7-accd74f77040.png)
