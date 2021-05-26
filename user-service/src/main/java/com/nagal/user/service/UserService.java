@@ -35,7 +35,7 @@ public class UserService {
 
 //		WebClient.Builder builder= WebClient.builder();
 
-		Department department= restTemplate.getForObject("http://localhost:9001/departments/" + user.getDepartmentId(),Department.class);
+		Department department= restTemplate.getForObject("http://DEPARTMENT-SERVICE/departments/" + user.getDepartmentId(),Department.class);
 
 		//Using builder patter to build on top of webclientbuilder going a get, over a uri and then doing a retierve.
 		//body to mono whatever you are getting convert it to instance of department class.
